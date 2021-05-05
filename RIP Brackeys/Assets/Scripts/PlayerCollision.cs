@@ -5,7 +5,6 @@ using UnityEngine;
 public class PlayerCollision : MonoBehaviour
 {
     public playermovement movement;
-    public GameManager gameManager;
         
 
    void OnCollisionEnter(Collision collision)
@@ -14,6 +13,7 @@ public class PlayerCollision : MonoBehaviour
         {
             movement.enabled = false;
             FindObjectOfType<GameManager>().EndGame();
+
         }
         
     }

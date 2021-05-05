@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -6,25 +6,19 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     bool gameHasEnded = false;
-    public GameObject levelFinish;
-    public void EndGame()
+   public void EndGame ()
     {
         if (gameHasEnded == false)
         {
             gameHasEnded = true;
-            Debug.Log("GAME OVER");
-            Invoke("Restart", 1f);
+            Debug.Log("Game Over");
+            Invoke("Restart", 2f);
         }
         
     }
 
-    public void CompleteLevel()
-    {
-        levelFinish.SetActive(true);
-    }
-
     void Restart()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        SceneManager.LoadScene(0);
     }
 }
