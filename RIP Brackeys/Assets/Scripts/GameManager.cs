@@ -6,6 +6,11 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     bool gameHasEnded = false;
+    public GameObject levelCompleteUI;
+    public void CompleteLevel()
+    {
+        levelCompleteUI.SetActive(true);
+    }
    public void EndGame ()
     {
         if (gameHasEnded == false)
