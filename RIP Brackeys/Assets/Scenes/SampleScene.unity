@@ -371,6 +371,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4127849537590799273, guid: 8e080f8c601f60144aab0f4a12046698, type: 3}
+      propertyPath: myTarget
+      value: 
+      objectReference: {fileID: 45865945}
+    - target: {fileID: 4127849537590799273, guid: 8e080f8c601f60144aab0f4a12046698, type: 3}
+      propertyPath: myMaxSpeed
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 6818801810861516873, guid: 8e080f8c601f60144aab0f4a12046698, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -590,6 +598,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4127849537590799273, guid: 8e080f8c601f60144aab0f4a12046698, type: 3}
+      propertyPath: myTarget
+      value: 
+      objectReference: {fileID: 45865945}
+    - target: {fileID: 4127849537590799273, guid: 8e080f8c601f60144aab0f4a12046698, type: 3}
+      propertyPath: myMaxSpeed
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 6818801810861516873, guid: 8e080f8c601f60144aab0f4a12046698, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -647,6 +663,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4127849537590799273, guid: 8e080f8c601f60144aab0f4a12046698, type: 3}
+      propertyPath: myTarget
+      value: 
+      objectReference: {fileID: 45865945}
+    - target: {fileID: 4127849537590799273, guid: 8e080f8c601f60144aab0f4a12046698, type: 3}
+      propertyPath: myMaxSpeed
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 6818801810861516873, guid: 8e080f8c601f60144aab0f4a12046698, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -803,6 +827,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4127849537590799273, guid: 8e080f8c601f60144aab0f4a12046698, type: 3}
+      propertyPath: myTarget
+      value: 
+      objectReference: {fileID: 45865945}
+    - target: {fileID: 4127849537590799273, guid: 8e080f8c601f60144aab0f4a12046698, type: 3}
+      propertyPath: myMaxSpeed
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 6818801810861516873, guid: 8e080f8c601f60144aab0f4a12046698, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -853,6 +885,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e080f8c601f60144aab0f4a12046698, type: 3}
+--- !u!1 &1479389194 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6818801810861516917, guid: 8e080f8c601f60144aab0f4a12046698, type: 3}
+  m_PrefabInstance: {fileID: 1856157734}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1479389200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1479389194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80d5a8bb737c28348a9231c8213efd3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myTarget: {fileID: 45865945}
+  myMaxSpeed: 20
 --- !u!850595691 &1519888786
 LightingSettings:
   m_ObjectHideFlags: 0
@@ -1015,7 +1066,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Obstacle (2)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4127849537590799273, guid: 8e080f8c601f60144aab0f4a12046698, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 8e080f8c601f60144aab0f4a12046698, type: 3}
 --- !u!1 &1898210776
 GameObject:
@@ -1331,6 +1383,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4127849537590799273, guid: 8e080f8c601f60144aab0f4a12046698, type: 3}
+      propertyPath: myTarget
+      value: 
+      objectReference: {fileID: 45865945}
+    - target: {fileID: 4127849537590799273, guid: 8e080f8c601f60144aab0f4a12046698, type: 3}
+      propertyPath: myMaxSpeed
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 6818801810861516873, guid: 8e080f8c601f60144aab0f4a12046698, type: 3}
       propertyPath: m_RootOrder
       value: 8
